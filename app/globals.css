@@ -1,11 +1,22 @@
 @import "tailwindcss";
 @import "tw-animate-css";
 
+@layer utilities {
+  .flex-center {
+   @apply flex items-center justify-center;
+  }
+
+  .flex-between {
+   @apply flex items-center justify-between;
+  }
+}
+
 @custom-variant dark (&:is(.dark *));
 
 @theme inline {
   --color-dark-1: #1c1f2e;
   --color-dark-2: #161925;
+  --color-blue-1: #0E78F9;
 
 
   --color-background: var(--background);
