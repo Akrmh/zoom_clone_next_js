@@ -7,14 +7,8 @@
   --color-blue-1: #0E78F9;
 }
 
-* {
-  margin: 0;
-  padding: 0;
-  box-sizing: border-box;
-}
-
 /* ======== stream css overrides ======== */
-.str-video__call-stats {
+ .str-video__call-stats {
   max-width: 500px;
   position: relative;
 }
@@ -56,9 +50,12 @@
   background: rgba(18, 17, 17, 0.25);
   backdrop-filter: blur(8px);
   -webkit-backdrop-filter: blur(8px);
-}
+} 
 
 /* ==== clerk class override ===== */
+.cl-providerIcon__github{
+  filter: invert(1);
+}
 
 .cl-userButtonPopoverActionButtonIcon {
   color: white;
