@@ -20,6 +20,8 @@
 # production
 /build
 
+alight.html
+
 # misc
 .DS_Store
 *.pem
